@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-shoulders-display {
+  font-family: "Big Shoulders", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+:root{
+    --birinchi-rang: #D5966C;
+    --ikkinchi-rang: #151515;
+    --uchunchi-rang: #444444;
+    --tortinchi-rang: #FFFFFF;
+
+    --HeadingXL: 96px;
+    --HeadingL: 70px;    
+    --HeadingM: 60px;
+    --HeadingS: 36px;
+
+
+    --bodyM: 22px;
+    --bodyS: 18px;
+
+
+
+}
+
+
+.header{
+    width: 990px;
+    background-color: var(--ikkinchi-rang);
+    height: 800px;
+}
+
+.portret{
+    margin-left: 450px;
+    height: 800px;
+    width: 540px;
+}
+
+.Logotext{
+    margin-top: 189px;
+    position: absolute;
+    color: var(--tortinchi-rang);
+    font-size: var(--HeadingM);
+    font-weight: 900;
+    line-height: 72px;
+    font-family: 'Big Shoulders', sans-serif;
+    margin-left: 165px;
+}
+
+.span1{
+    color: var(--ikkinchi-rang);
+}
+
+.about{
+    margin-top: -585px;
+    margin-left: 900px;
+    color: var(--uchunchi-rang);
+    position: absolute;
+    font-size: var(--bodyS);
+    font-family: 'Big Shoulders', sans-serif;
+}
+
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--birinchi-rang);
+}
+
+.button{
+    margin-top: -400px;
+    margin-left: 900px;
+    background-color: var(--ikkinchi-rang);
+    width: 260px;
+    font-size: 20px;
+    position: absolute;
+    height: 72px;
+}
+
+.ourlocation{
+    display: inline;
+    font-size: 25px;
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bottona:hover{
+    cursor: pointer;
+    background-color: var(--ikkinchi-rang);
+}
+
+.bottona{
+    position: absolute;
+    margin-left: 204px;
+    width: 56px;
+    height: 72px;
+    background-color: var(--birinchi-rang);
+
+}
+
+
+.container{
+    margin-left: 165px;
+    width: 990px;
+    margin-top: 180px;
+    margin-bottom: 100px;
+
+}
+
+.Yourday{
+    font-size: var(--HeadingS);
+    font-family: 'Big Shoulders', sans-serif;
+    color: var(--ikkinchi-rang);
+    margin-bottom: 32px;
+}
+.yourdayimg{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: -300px;
+    width: 635px;
+    height: 400px;
+}
+
+
+.images{
+    margin-left: 165px;
+}
+
+.img1{
+    margin-top: 50px;
+    width: 635px;
+}
+.img2{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 445px;
+}
+.img3{
+    margin-left: 30px;
+    width: 445px;
+}
+
+.footer{
+    margin-top: 180px;
+    background-color: var(--ikkinchi-rang);
+}
+
+.footerimg{
+    width: 100%;
+    height: 244px;
+    background-color: var(--ikkinchi-rang);
+
+}
+
+
+.facebook:hover{
+    background-color: var(--birinchi-rang);
+    cursor: pointer;
+}   
+
+.instagram:hover{
+    background-color: var(--birinchi-rang);
+    cursor: pointer;
+}
+
+.logotip{
+    margin-left: 165px;
+    margin-top: 80px;
+    width: 160px;
+    height: 58px;
+}
+.boximages{
+    margin-top: -115px;
+    margin-left: 1138px;
+}
+.themodern{
+    width: 430px;
+    margin-top: -70px;
+    margin-left: 465px;
+    color: white;
+}
+
+.twitter:hover{
+    background-color: var(--birinchi-rang);
+    cursor: pointer;
+}
+.facebook{
+    margin-top: 100px;
+    position: absolute;
+}
+.instagram{
+    margin-top: 100px;
+    margin-left: -30px;
+    position: absolute;
+}
+.twitter{
+    margin-top: 100px;
+    margin-left: -60px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px){
+
+    .header{
+        width: 100%;
+        background-color: white;
+    }
+
+    .portret{
+        margin: 0;
+    }
+
+    .Logotext{
+        color: black;
+        margin-left: 500px;
+    }
+
+    .about , .text{
+        width: 339px;
+        margin-top: -340px;
+        margin-left: 500px;
+    }
+
+    .button{
+    
+        margin-left: 500px;
+        margin-top: -200px;
+
+    }
+
+    .container{
+        margin-left: 39px;
+    }
+    .container img{
+        width: 398px;
+        margin-left: 310px;
+    }
+
+    .images{
+        margin-left: 39px;
+
+    }
+
+    .img1{
+        width: 398px;
+        height: 720px;
+    }
+
+    .img2{
+        width: 280px;
+        height: 313px;
+    }
+
+    .img3{
+        width: 280px;
+        height: 396px;
+    }
+
+    .logotip{
+        width: 110.05px;
+        margin-top: 56px;
+        margin-left: 39px;
+    }
+    .themodern{
+        width: 281px;
+        margin-left: 214px;
+    }
+
+    .boximages{
+
+        margin-top: -156px;
+        margin-left: 628px;
+
+    }
+
+
+
+}
+

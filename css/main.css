@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding: 0;
+    gap: 0;
+}
+
+:root{
+    --birinchi-rang: #D5966C;
+    --ikkinchi-rang: #151515;
+    --uchunchi-rang: #444444;
+    --tortinchi-rang: #FFFFFF;
+
+    --HeadingXL: 96px;
+    --HeadingL: 70px;    
+    --HeadingM: 60px;
+    --HeadingS: 36px;
+
+
+    --bodyM: 22px;
+    --bodyS: 18px;
+
+
+
+}
+
+
+
+.button{
+    z-index: 2;
+    margin-left: 100px;
+    background-color: var(--ikkinchi-rang);
+    width: 260px;
+    font-size: 20px;
+    position: absolute;
+    height: 72px;
+}
+
+
+.button:hover{
+    cursor: pointer;
+    background-color: var(--birinchi-rang);
+}
+
+.ourlocation{
+    display: inline;
+    font-size: 18px;
+    margin-left: 115px;
+    position: absolute;
+    margin-top: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.bottona:hover{
+    cursor: pointer;
+    background-color: var(--ikkinchi-rang);
+}
+
+.bottona{
+    position: absolute;
+    width: 56px;
+    height: 72px;
+    background-color: var(--birinchi-rang);
+
+}
+
+
+.location{
+    width: 100%;
+    margin-top: -5px;
+}
+
+
+.box{   
+    
+    height: 548px;
+    margin-top: -5px;
+    background-color: black;
+}
+
+
+.bizninglokatsiya{
+    margin-left: 165px;
+    padding-top: 104px;
+    color: var(--tortinchi-rang);
+    font-size: var(--HeadingM);
+    width: 350px;
+}
+
+
+
+.Street{
+    margin-top: -130px;
+    margin-left: 735px;
+    color: var(--birinchi-rang);
+}   
+
+
+.address{
+    margin-bottom: 32px;
+}
+
+.address, .Edward{
+    margin-left: 735px;
+    color: var(--tortinchi-rang);
+}
+
+
+.footer{
+    background-color: var(--birinchi-rang);
+    height: 244px;
+    margin-top: -5px;
+}
+
+
+.logo{
+    margin-top: 93px;
+    margin-left: 165px;
+}
+
+.abouttext{
+    margin-top: -65px;
+    margin-left: 465px;
+}
+
+
+
+.web{
+    margin-left: 1130px;
+    margin-top: -45px;
+}
+.web:hover{
+    cursor: pointer;
+}
+
+.container{
+    margin-top: -5px;
+    width: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+
+    
+    .button{
+        margin-left: 39px;
+        width: 264px;
+        height: 72;
+    }
+    .ourlocation{
+        margin-left: 100px;
+        font-size: 16px;
+    }
+
+    .location{
+        width: 100%;
+        height: 600px;
+    }
+
+    .box{
+        height: 436px;
+
+    }
+
+    
+    .bizninglokatsiya{
+        width: 200;
+        font-size: 55px;
+        padding-top: 88px;
+        margin-left: 39px;
+    }
+
+    .Street{
+
+        margin-left: 450px;
+
+    }
+
+    .address, .Edward{
+        margin-left: 450px;
+    }
+
+
+    .footer{
+        width: 100%;
+    }
+
+
+    .logo{
+        margin-top: 56px;
+        margin-left: 39px;
+    }
+
+    .abouttext{
+        width: 281px;
+        margin-top: -56px;
+        margin-left: 250px;
+    }
+
+    .web{
+        margin-top: -70px;
+        margin-left: 628px;
+    }
+
+
+}
